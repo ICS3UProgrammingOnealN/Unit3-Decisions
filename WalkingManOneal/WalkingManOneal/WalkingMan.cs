@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RockPaperScissorOneal
+namespace WalkingManOneal
 {
-    static class RockPaperScissors
+    static class WalkingMan
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace RockPaperScissorOneal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmRockPaperScissors());
+            Application.Run(new WalkingManForm());
         }
     }
 }

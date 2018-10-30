@@ -8,28 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GuessGame_OnealNnah_
+namespace GuessingGameOneal
 {
-    public partial class GuessGameForm : Form
+    public partial class GuessingGameForm : Form
     {
-        public GuessGameForm()
+        public GuessingGameForm()
         {
             InitializeComponent();
         }
 
-        private void GuessGameForm_Load(object sender, EventArgs e)
+        private void btnCheck_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void lblnumber_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnAnswer_Click(object sender, EventArgs e)
-        {
-            // declare constant and variable
+            // declare the constants and variables
             const int integer = 7;
             int Guess;
 
@@ -37,8 +27,9 @@ namespace GuessGame_OnealNnah_
             Guess = int.Parse(txtGuess.Text);
 
             // If the number is not the correct answer display wrong
-            if (integer is incorrect) ;
-            lblAnswer.Show();
+            if (Guess < 7)
+            if (Guess > 7)
+            
         }
     }
 }
