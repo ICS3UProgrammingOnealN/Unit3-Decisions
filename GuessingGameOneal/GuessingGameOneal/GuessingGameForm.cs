@@ -19,17 +19,18 @@ namespace GuessingGameOneal
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            // declare the constants and variables
-            const int integer = 7;
-            int Guess;
+            // declaring the constants and variable 
+            int GuessNumber;
+            const int NUMBER = 7;
 
-            // get the integer from the textbox 
-            Guess = int.Parse(txtGuess.Text);
+            GuessNumber = int.Parse(txtGuess.Text);
 
-            // If the number is not the correct answer display wrong
-            if (Guess < 7)
-            if (Guess > 7)
-            
+            //if the number of student is The same as The Number Display "correct"
+            if (GuessNumber == NUMBER)
+            {
+                lblAnswer.Text =
+
+
         }
     }
 }

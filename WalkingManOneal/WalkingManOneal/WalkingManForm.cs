@@ -19,11 +19,13 @@ namespace WalkingManOneal
 
         private void btnWalk_Click(object sender, EventArgs e)
         {
-            // add the following library to use the sleep timer
-            using System.Threading;
+            const byte MAX_FRAMES = 10;
+            int pictureFrameCounter =1
 
-            //Declare local variables and constants
 
-        }
-    }
-}
+            while(pictureFrameCounter < MAX_FRAMES +1)
+                if (pictureFrameCounter == 1)
+                {
+                    this.picWalkingMan 
+                }
+

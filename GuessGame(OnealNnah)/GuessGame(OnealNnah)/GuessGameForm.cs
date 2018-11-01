@@ -24,21 +24,25 @@ namespace GuessGame_OnealNnah_
 
         private void lblnumber_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnAnswer_Click(object sender, EventArgs e)
         {
-            // declare constant and variable
-            const int integer = 7;
-            int Guess;
+            // declaring the constants and variable 
+            int GuessNumber;
+            const int NUMBER = 7;
 
-            // get the integer from the textbox 
-            Guess = int.Parse(txtGuess.Text);
+            GuessNumber = int.Parse(txtGuess.Text);
 
-            // If the number is not the correct answer display wrong
-            if (integer is incorrect) ;
-            lblAnswer.Show();
+            //if the number of student is The same as The Number Display "correct"
+            if (GuessNumber == NUMBER)
+            {
+                lblAnswer.Text = 
+            }
+        }
+            
+
         }
     }
 }
